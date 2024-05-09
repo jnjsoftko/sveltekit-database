@@ -27,10 +27,12 @@ const saveXslx = (filePath, sheetName, data) => {
   saveFile(filePath, buffer);
 };
 
-// * load
-const filePath = "C:/JnJ-soft/Playground/sveltekit-database/backend/nodejs/src/database/test.xlsx";
-const data = loadXslx(filePath, "Sheet1");
-console.log(`data: ${JSON.stringify(data)}`);
+export { loadXslx, saveXslx }
+
+// // * load
+// const filePath = "C:/JnJ-soft/Playground/sveltekit-database/backend/nodejs/src/database/test.xlsx";
+// const data = loadXslx(filePath, "Sheet1");
+// console.log(`data: ${JSON.stringify(data)}`);
 
 // // * save
 // const data = [
