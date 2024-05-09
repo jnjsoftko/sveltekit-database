@@ -1,0 +1,11 @@
+{
+	"/": [],
+	"/(API)/database/pocketbase/[collection]": [
+		"src/routes/(API)/database/pocketbase/[collection]/+server.ts"
+	],
+	"/(API)/database/supabase/[collection]": [
+		"src/routes/(API)/database/supabase/[collection]/+server.ts"
+	],
+	"/(test)/test_env": [],
+	"/(REST)/users": []
+}

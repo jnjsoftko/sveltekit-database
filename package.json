@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.1",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "jnj-lib-base": "^0.0.28",
+    "jnj-lib-doc": "^0.0.5",
+    "jnj-lib-google": "^0.0.8",
+    "json-server": "^1.0.0-alpha.23",
+    "pocketbase": "^0.21.2"
+  }
+}
