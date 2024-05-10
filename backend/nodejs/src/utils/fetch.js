@@ -1,6 +1,6 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+// process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-const get = async ({ url, params }) => {
+const fetchGet = async ({ url, params }) => {
   const response = await fetch(url, {
     method: "GET",
     headers: {
@@ -10,7 +10,7 @@ const get = async ({ url, params }) => {
   return await response.json();
 };
 
-const post = async ({ url, data }) => {
+const fetchPost = async ({ url, data }) => {
   const response = await fetch(url, {
     method: "POST",
     headers: {
@@ -21,7 +21,7 @@ const post = async ({ url, data }) => {
   return await response.json();
 };
 
-const patch = async ({ url, data }) => {
+const fetchPatch = async ({ url, data }) => {
   const response = await fetch(url, {
     method: "PATCH",
     headers: {
@@ -32,7 +32,7 @@ const patch = async ({ url, data }) => {
   return await response.json();
 };
 
-const del = async ({ url }) => {
+const fetchDelete = async ({ url }) => {
   const response = await fetch(url, {
     method: "DELETE",
     headers: {
@@ -42,4 +42,4 @@ const del = async ({ url }) => {
   return await response.json();
 };
 
-export { get, post, patch, del };
+export { fetchGet, fetchPost, fetchPatch, fetchDelete };

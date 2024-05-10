@@ -26,7 +26,6 @@
  * ```
  */
 declare module '$env/static/private' {
-<<<<<<< HEAD
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const APP_ROOT_DIR: string;
@@ -38,6 +37,7 @@ declare module '$env/static/private' {
 	export const CommonProgramW6432: string;
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
+	export const CONDA_PROMPT_MODIFIER: string;
 	export const DEV_CFG_ROOT: string;
 	export const DEV_SETTINGS: string;
 	export const DriverData: string;
@@ -50,6 +50,7 @@ declare module '$env/static/private' {
 	export const HOMEDRIVE: string;
 	export const HOMEPATH: string;
 	export const INIT_CWD: string;
+	export const JSONSERVER_ROOT: string;
 	export const LANG: string;
 	export const LOCALAPPDATA: string;
 	export const LOGONSERVER: string;
@@ -68,7 +69,6 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_npm_version: string;
-	export const npm_config_open: string;
 	export const npm_config_prefix: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_user_agent: string;
@@ -89,7 +89,12 @@ declare module '$env/static/private' {
 	export const OS: string;
 	export const Path: string;
 	export const PATHEXT: string;
+	export const POSH_AZURE_ENABLED: string;
+	export const POSH_GIT_ENABLED: string;
+	export const POSH_PID: string;
+	export const POSH_THEME: string;
 	export const POSH_THEMES_PATH: string;
+	export const POWERLINE_COMMAND: string;
 	export const POWERSHELL_DISTRIBUTION_CHANNEL: string;
 	export const PROCESSOR_ARCHITECTURE: string;
 	export const PROCESSOR_IDENTIFIER: string;
@@ -104,21 +109,8 @@ declare module '$env/static/private' {
 	export const SystemDrive: string;
 	export const SystemRoot: string;
 	export const TEMP: string;
-=======
-	export const NVM_INC: string;
->>>>>>> 2204df425c88ee1d1fb3bb88d1a33a99d703d857
 	export const TERM_PROGRAM: string;
-	export const NODE: string;
-	export const INIT_CWD: string;
-	export const NVM_CD_FLAGS: string;
-	export const VITE_APP_ROOT_DIR: string;
-	export const TERM: string;
-	export const SHELL: string;
-	export const TMPDIR: string;
-	export const npm_config_global_prefix: string;
-	export const CONDA_SHLVL: string;
 	export const TERM_PROGRAM_VERSION: string;
-<<<<<<< HEAD
 	export const TMP: string;
 	export const USERDOMAIN: string;
 	export const USERDOMAIN_ROAMINGPROFILE: string;
@@ -130,87 +122,17 @@ declare module '$env/static/private' {
 	export const VITE_POCKETBASE_PORT: string;
 	export const VITE_POCKETBASE_PROTOCOL: string;
 	export const VITE_POCKETBASE_SERVE_DIR: string;
-=======
-	export const ZDOTDIR: string;
-	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
-	export const MallocNanoZone: string;
-	export const COLOR: string;
-	export const npm_config_noproxy: string;
-	export const npm_config_local_prefix: string;
->>>>>>> 2204df425c88ee1d1fb3bb88d1a33a99d703d857
 	export const VITE_POCKETBASE_SERVE_HTTP: string;
-	export const NVM_DIR: string;
-	export const USER: string;
-	export const OPENAI_API_KEY: string;
-	export const COMMAND_MODE: string;
-	export const npm_config_globalconfig: string;
-	export const CONDA_EXE: string;
-	export const VITE_POCKETBASE_SERVE_DIR: string;
-	export const SSH_AUTH_SOCK: string;
-	export const __CF_USER_TEXT_ENCODING: string;
-	export const npm_execpath: string;
-	export const VITE_POCKETBASE_IP: string;
-	export const VIRTUAL_ENV: string;
-	export const _CE_CONDA: string;
-	export const GOOGLE_API_KEY: string;
-	export const PATH: string;
-	export const npm_package_json: string;
-	export const _: string;
-	export const ENV_SETTINGS_PATH: string;
-	export const LaunchInstanceID: string;
-	export const npm_config_userconfig: string;
-	export const npm_config_init_module: string;
-	export const USER_ZDOTDIR: string;
-	export const __CFBundleIdentifier: string;
-	export const npm_command: string;
-	export const PWD: string;
-	export const npm_lifecycle_event: string;
-	export const EDITOR: string;
-	export const VITE_POCKETBASE_PROTOCOL: string;
-	export const VITE_APP_ROOT_URL: string;
-	export const npm_package_name: string;
-	export const LANG: string;
-	export const VITE_POCKETBASE_PORT: string;
-	export const npm_config_npm_version: string;
+	export const VITE_SUPABASE_ANON_KEY: string;
+	export const VITE_SUPABASE_URL: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
-<<<<<<< HEAD
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
+	export const VSCODE_INJECTION: string;
 	export const windir: string;
 	export const ZES_ENABLE_SYSMAN: string;
 	export const __COMPAT_LAYER: string;
-=======
-	export const XPC_FLAGS: string;
-	export const npm_config_node_gyp: string;
-	export const npm_package_version: string;
-	export const _CE_M: string;
-	export const XPC_SERVICE_NAME: string;
-	export const VSCODE_INJECTION: string;
-	export const SHLVL: string;
-	export const HOME: string;
-	export const VSCODE_GIT_ASKPASS_MAIN: string;
-	export const VITE_SUPABASE_URL: string;
-	export const npm_config_cache: string;
-	export const CONDA_PYTHON_EXE: string;
-	export const VSCODE_PATH_PREFIX: string;
-	export const LOGNAME: string;
-	export const npm_lifecycle_script: string;
-	export const VITE_SUPABASE_ANON_KEY: string;
-	export const VSCODE_GIT_IPC_HANDLE: string;
-	export const PKG_CONFIG_PATH: string;
-	export const NVM_BIN: string;
-	export const npm_config_user_agent: string;
-	export const ENV_TEMPLATES_PATH: string;
-	export const VSCODE_GIT_ASKPASS_NODE: string;
-	export const GIT_ASKPASS: string;
-	export const SECURITYSESSIONID: string;
-	export const VIRTUAL_ENV_PROMPT: string;
-	export const npm_node_execpath: string;
-	export const npm_config_prefix: string;
-	export const COLORTERM: string;
-	export const NODE_ENV: string;
->>>>>>> 2204df425c88ee1d1fb3bb88d1a33a99d703d857
 }
 
 /**
@@ -242,7 +164,6 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-<<<<<<< HEAD
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		APP_ROOT_DIR: string;
@@ -254,6 +175,7 @@ declare module '$env/dynamic/private' {
 		CommonProgramW6432: string;
 		COMPUTERNAME: string;
 		ComSpec: string;
+		CONDA_PROMPT_MODIFIER: string;
 		DEV_CFG_ROOT: string;
 		DEV_SETTINGS: string;
 		DriverData: string;
@@ -266,6 +188,7 @@ declare module '$env/dynamic/private' {
 		HOMEDRIVE: string;
 		HOMEPATH: string;
 		INIT_CWD: string;
+		JSONSERVER_ROOT: string;
 		LANG: string;
 		LOCALAPPDATA: string;
 		LOGONSERVER: string;
@@ -284,7 +207,6 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		npm_config_noproxy: string;
 		npm_config_npm_version: string;
-		npm_config_open: string;
 		npm_config_prefix: string;
 		npm_config_userconfig: string;
 		npm_config_user_agent: string;
@@ -305,7 +227,12 @@ declare module '$env/dynamic/private' {
 		OS: string;
 		Path: string;
 		PATHEXT: string;
+		POSH_AZURE_ENABLED: string;
+		POSH_GIT_ENABLED: string;
+		POSH_PID: string;
+		POSH_THEME: string;
 		POSH_THEMES_PATH: string;
+		POWERLINE_COMMAND: string;
 		POWERSHELL_DISTRIBUTION_CHANNEL: string;
 		PROCESSOR_ARCHITECTURE: string;
 		PROCESSOR_IDENTIFIER: string;
@@ -320,21 +247,8 @@ declare module '$env/dynamic/private' {
 		SystemDrive: string;
 		SystemRoot: string;
 		TEMP: string;
-=======
-		NVM_INC: string;
->>>>>>> 2204df425c88ee1d1fb3bb88d1a33a99d703d857
 		TERM_PROGRAM: string;
-		NODE: string;
-		INIT_CWD: string;
-		NVM_CD_FLAGS: string;
-		VITE_APP_ROOT_DIR: string;
-		TERM: string;
-		SHELL: string;
-		TMPDIR: string;
-		npm_config_global_prefix: string;
-		CONDA_SHLVL: string;
 		TERM_PROGRAM_VERSION: string;
-<<<<<<< HEAD
 		TMP: string;
 		USERDOMAIN: string;
 		USERDOMAIN_ROAMINGPROFILE: string;
@@ -346,87 +260,17 @@ declare module '$env/dynamic/private' {
 		VITE_POCKETBASE_PORT: string;
 		VITE_POCKETBASE_PROTOCOL: string;
 		VITE_POCKETBASE_SERVE_DIR: string;
-=======
-		ZDOTDIR: string;
-		ORIGINAL_XDG_CURRENT_DESKTOP: string;
-		MallocNanoZone: string;
-		COLOR: string;
-		npm_config_noproxy: string;
-		npm_config_local_prefix: string;
->>>>>>> 2204df425c88ee1d1fb3bb88d1a33a99d703d857
 		VITE_POCKETBASE_SERVE_HTTP: string;
-		NVM_DIR: string;
-		USER: string;
-		OPENAI_API_KEY: string;
-		COMMAND_MODE: string;
-		npm_config_globalconfig: string;
-		CONDA_EXE: string;
-		VITE_POCKETBASE_SERVE_DIR: string;
-		SSH_AUTH_SOCK: string;
-		__CF_USER_TEXT_ENCODING: string;
-		npm_execpath: string;
-		VITE_POCKETBASE_IP: string;
-		VIRTUAL_ENV: string;
-		_CE_CONDA: string;
-		GOOGLE_API_KEY: string;
-		PATH: string;
-		npm_package_json: string;
-		_: string;
-		ENV_SETTINGS_PATH: string;
-		LaunchInstanceID: string;
-		npm_config_userconfig: string;
-		npm_config_init_module: string;
-		USER_ZDOTDIR: string;
-		__CFBundleIdentifier: string;
-		npm_command: string;
-		PWD: string;
-		npm_lifecycle_event: string;
-		EDITOR: string;
-		VITE_POCKETBASE_PROTOCOL: string;
-		VITE_APP_ROOT_URL: string;
-		npm_package_name: string;
-		LANG: string;
-		VITE_POCKETBASE_PORT: string;
-		npm_config_npm_version: string;
+		VITE_SUPABASE_ANON_KEY: string;
+		VITE_SUPABASE_URL: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
-<<<<<<< HEAD
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		VSCODE_GIT_IPC_HANDLE: string;
+		VSCODE_INJECTION: string;
 		windir: string;
 		ZES_ENABLE_SYSMAN: string;
 		__COMPAT_LAYER: string;
-=======
-		XPC_FLAGS: string;
-		npm_config_node_gyp: string;
-		npm_package_version: string;
-		_CE_M: string;
-		XPC_SERVICE_NAME: string;
-		VSCODE_INJECTION: string;
-		SHLVL: string;
-		HOME: string;
-		VSCODE_GIT_ASKPASS_MAIN: string;
-		VITE_SUPABASE_URL: string;
-		npm_config_cache: string;
-		CONDA_PYTHON_EXE: string;
-		VSCODE_PATH_PREFIX: string;
-		LOGNAME: string;
-		npm_lifecycle_script: string;
-		VITE_SUPABASE_ANON_KEY: string;
-		VSCODE_GIT_IPC_HANDLE: string;
-		PKG_CONFIG_PATH: string;
-		NVM_BIN: string;
-		npm_config_user_agent: string;
-		ENV_TEMPLATES_PATH: string;
-		VSCODE_GIT_ASKPASS_NODE: string;
-		GIT_ASKPASS: string;
-		SECURITYSESSIONID: string;
-		VIRTUAL_ENV_PROMPT: string;
-		npm_node_execpath: string;
-		npm_config_prefix: string;
-		COLORTERM: string;
-		NODE_ENV: string;
->>>>>>> 2204df425c88ee1d1fb3bb88d1a33a99d703d857
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

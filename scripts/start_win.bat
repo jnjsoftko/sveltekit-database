@@ -16,6 +16,15 @@ for /f "tokens=1* delims==" %%i in (%ENV_FILE%) do (
     )
 )
 
-@REM start pocketbase
-pocketbase serve --dir="%VITE_POCKETBASE_SERVE_DIR%" --http="%VITE_POCKETBASE_SERVE_HTTP%"
+@REM RUN POCKETBASE SERVER
+start pocketbase serve --dir="%VITE_POCKETBASE_SERVE_DIR%" --http="%VITE_POCKETBASE_SERVE_HTTP%"
 @REM pocketbase serve --dir="C:/JnJ-soft/Developments/_Templates/pocketbase/auth/sqlite" --http="127.0.0.1:8090"
+
+@REM RUN APP SERVER / APP_ROOT_DIR: 환경변수 설정 필요
+cd %APP_ROOT_DIR%\frontend
+start npm run dev
+timeout /t 1
+
+@REM RUN GRAPHQL SERVER
+cd %APP_ROOT_DIR%/backend/nodejs/src/graphql
+start node --watch index.js

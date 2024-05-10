@@ -7,7 +7,7 @@ import { resolvers } from "./resolvers/index.js";
 
 // const { VITE_GRAPHQLSERVER_PORT } = getEnv();
 
-const VITE_GRAPHQLSERVER_PORT = 5001
+const VITE_GRAPHQLSERVER_PORT = 5006;
 
 const server = new ApolloServer({
   typeDefs,
