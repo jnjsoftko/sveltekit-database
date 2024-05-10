@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
+	export const APP_ROOT_DIR: string;
 	export const BW_KMC_ROOT: string;
 	export const CHROME_CRASHPAD_PIPE_NAME: string;
 	export const COLOR: string;
@@ -36,13 +37,13 @@ declare module '$env/static/private' {
 	export const CommonProgramW6432: string;
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
-	export const CONDA_PROMPT_MODIFIER: string;
 	export const DEV_CFG_ROOT: string;
 	export const DEV_SETTINGS: string;
 	export const DriverData: string;
 	export const EDITOR: string;
 	export const ENV_SETTINGS_PATH: string;
 	export const GIT_ASKPASS: string;
+	export const GOOGLE_API_KEY: string;
 	export const GOPATH: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
@@ -66,6 +67,7 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_npm_version: string;
+	export const npm_config_open: string;
 	export const npm_config_prefix: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_user_agent: string;
@@ -81,16 +83,12 @@ declare module '$env/static/private' {
 	export const NVM_HOME: string;
 	export const NVM_SYMLINK: string;
 	export const OneDrive: string;
+	export const OPENAI_API_KEY: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const OS: string;
 	export const Path: string;
 	export const PATHEXT: string;
-	export const POSH_AZURE_ENABLED: string;
-	export const POSH_GIT_ENABLED: string;
-	export const POSH_PID: string;
-	export const POSH_THEME: string;
 	export const POSH_THEMES_PATH: string;
-	export const POWERLINE_COMMAND: string;
 	export const POWERSHELL_DISTRIBUTION_CHANNEL: string;
 	export const PROCESSOR_ARCHITECTURE: string;
 	export const PROCESSOR_IDENTIFIER: string;
@@ -112,6 +110,8 @@ declare module '$env/static/private' {
 	export const USERDOMAIN_ROAMINGPROFILE: string;
 	export const USERNAME: string;
 	export const USERPROFILE: string;
+	export const VITE_APP_ROOT_DIR: string;
+	export const VITE_APP_ROOT_URL: string;
 	export const VITE_POCKETBASE_IP: string;
 	export const VITE_POCKETBASE_PORT: string;
 	export const VITE_POCKETBASE_PROTOCOL: string;
@@ -123,7 +123,6 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
-	export const VSCODE_INJECTION: string;
 	export const windir: string;
 	export const ZES_ENABLE_SYSMAN: string;
 	export const __COMPAT_LAYER: string;
@@ -160,6 +159,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
+		APP_ROOT_DIR: string;
 		BW_KMC_ROOT: string;
 		CHROME_CRASHPAD_PIPE_NAME: string;
 		COLOR: string;
@@ -168,13 +168,13 @@ declare module '$env/dynamic/private' {
 		CommonProgramW6432: string;
 		COMPUTERNAME: string;
 		ComSpec: string;
-		CONDA_PROMPT_MODIFIER: string;
 		DEV_CFG_ROOT: string;
 		DEV_SETTINGS: string;
 		DriverData: string;
 		EDITOR: string;
 		ENV_SETTINGS_PATH: string;
 		GIT_ASKPASS: string;
+		GOOGLE_API_KEY: string;
 		GOPATH: string;
 		HOME: string;
 		HOMEDRIVE: string;
@@ -198,6 +198,7 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		npm_config_noproxy: string;
 		npm_config_npm_version: string;
+		npm_config_open: string;
 		npm_config_prefix: string;
 		npm_config_userconfig: string;
 		npm_config_user_agent: string;
@@ -213,16 +214,12 @@ declare module '$env/dynamic/private' {
 		NVM_HOME: string;
 		NVM_SYMLINK: string;
 		OneDrive: string;
+		OPENAI_API_KEY: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		OS: string;
 		Path: string;
 		PATHEXT: string;
-		POSH_AZURE_ENABLED: string;
-		POSH_GIT_ENABLED: string;
-		POSH_PID: string;
-		POSH_THEME: string;
 		POSH_THEMES_PATH: string;
-		POWERLINE_COMMAND: string;
 		POWERSHELL_DISTRIBUTION_CHANNEL: string;
 		PROCESSOR_ARCHITECTURE: string;
 		PROCESSOR_IDENTIFIER: string;
@@ -244,6 +241,8 @@ declare module '$env/dynamic/private' {
 		USERDOMAIN_ROAMINGPROFILE: string;
 		USERNAME: string;
 		USERPROFILE: string;
+		VITE_APP_ROOT_DIR: string;
+		VITE_APP_ROOT_URL: string;
 		VITE_POCKETBASE_IP: string;
 		VITE_POCKETBASE_PORT: string;
 		VITE_POCKETBASE_PROTOCOL: string;
@@ -255,7 +254,6 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		VSCODE_GIT_IPC_HANDLE: string;
-		VSCODE_INJECTION: string;
 		windir: string;
 		ZES_ENABLE_SYSMAN: string;
 		__COMPAT_LAYER: string;
