@@ -21,11 +21,6 @@ http://localhost:5001/
 }
 ```
 
-## notion
-https://github.com/graphql-api/graphql-api-notion
-
-https://github.com/karadalex/nextjs-notion-graphql
-
 ## type / schema
 
 https://transform.tools/json-to-graphql
