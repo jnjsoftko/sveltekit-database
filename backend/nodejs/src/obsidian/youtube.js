@@ -198,4 +198,5 @@ const defaults = {
   difficulty: "2",
 };
 
+
 await saveVideoInfosInPlaylist({ playlistId, defaults, subFolder, localPlaylistFolder });
